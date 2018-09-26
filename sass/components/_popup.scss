@@ -16,7 +16,7 @@
 
   &__content {
     @include absCenter
-    width: 90%;
+    width: 91%;
     background-color: $color-white;
     box-shadow: 0 2rem 4rem rgba($color-black, .2);
     border-radius: 3px;
@@ -96,16 +96,17 @@
 
     @include respond(tab-land) {
       display: inline-block;
+      position: relative;
       width: 50%;
       float: left;
-      height: 32rem;
+      height: 40rem;
     }
 
     @include respond(tab-port) {
       display: inline-block;
       width: 50%;
       float: left;
-      height: 23rem;
+      height: 29rem;
     }
 
     @include respond(phone) {
